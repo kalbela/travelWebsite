@@ -51,8 +51,10 @@ html {
     font-size: 1.6rem;
 }
 
-.menu-items li {
+.menu-items a {
     cursor: pointer;
+    color: rgb(248, 255, 248);
+    text-decoration: none;
     letter-spacing: 1px;
 }
 
