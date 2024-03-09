@@ -113,3 +113,58 @@ html {
     color: rgb(80, 97, 80);
     cursor: pointer;
 }
+
+
+/* ####### showcase section ###### */
+
+.showcase {
+    padding: 100px 0;
+    background: rgba(80, 97, 80, 0.11);
+}
+
+.showcase-box {
+    display: flex;
+    height: 250px;
+    background: rgba(138, 167, 149, 0.082);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.267) 0px 8px 32px;
+}
+
+.showcase-box2 {
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+/* img styling */
+.showcase-box img {
+    object-fit: cover;
+    flex: 1;
+    width: 50%;
+}
+
+/* content styling */
+.showcase-box .content-box {
+    flex: 1;
+    padding: 20px;
+}
+
+.showcase-box .content-box h1 {
+    color: rgb(68, 82, 68);
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.showcase-box .content-box p {
+    color: #4b4c4b;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.showcase-box .content-box a {
+    text-decoration: none;
+    border: 2px solid rgb(95, 110, 95);
+    color: rgb(68, 82, 68);
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 6px 26px;
+}
