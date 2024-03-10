@@ -231,3 +231,12 @@ html {
 .footer-content p {
     font-size: 1.4rem;
 }
+
+
+/* ##### header 2 #### */
+
+.header-2 {
+    height: 90px;
+    background: radial-gradient(circle at 10% 20%, rgba(0, 0, 0, 0.527) 0%, rgba(64, 64, 64, 0.548) 90.2%), url(./images/trees.jpg);
+    background-size: cover;
+}
