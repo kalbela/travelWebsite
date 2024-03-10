@@ -58,7 +58,7 @@ html {
     letter-spacing: 1px;
 }
 
-.menu-items li::after {
+.menu-items a::after {
     content: "";
     display: block;
     width: 100%;
@@ -69,7 +69,7 @@ html {
     transform-origin: right;
 }
 
-.menu-items li:hover::after {
+.menu-items a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
