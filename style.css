@@ -336,3 +336,136 @@ html {
     border: 2px solid rgba(255, 255, 255, 0.849);
     padding: 5px 20px;
 }
+
+
+/* ##### contact ###### */
+
+.contact {
+    background: rgba(221, 221, 221, 0.459);
+    padding: 50px 0 70px;
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-information, .form {
+    background: rgba(255, 255, 255, 0.829);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 15px;
+    width: 50%;
+    height: 700px;
+}
+
+/* contact information */
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.information-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    gap: 23px;
+}
+
+.information-box i {
+    color: rgb(43, 53, 43);
+}
+
+.information-box p:first-of-type {
+    margin-top: 6px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.information-box p {
+    color:rgb(43, 53, 43);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.img-wrapper {
+    height: 50%;
+}
+
+.contact-information img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+/* form */
+
+.form h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color:rgb(26, 31, 26);
+    margin-bottom: 10px;
+}
+
+.form p {
+    color: rgba(36, 43, 36, 0.705);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.form label {
+    font-size: 1.5rem;
+    color:rgb(26, 31, 26);
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form input:not(input[type="submit"]), .form textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(37, 46, 37, 0.685);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    color: rgb(26, 31, 26);
+    font-size: 1.5rem;
+}
+
+.form textarea {
+    height: 250px;
+}
+
+.form textarea::-webkit-scrollbar {
+    display: none;
+}
+.form textarea {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.form input[type="submit"] {
+    position: relative;
+    border: 2px solid rgb(47, 56, 47);
+    color: rgb(56, 66, 56);
+    display: block;
+    margin: 20px auto 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 6px 26px;
+    transition: color 0.3s;
+    background: none;
+    transition-property: color, background;
+    transition-duration: 0.3s;
+}
+
+.form input[type="submit"]:hover {
+    background: rgba(47, 56, 47, 0.932);
+    color: white;
+    cursor: pointer;
+}
