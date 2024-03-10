@@ -474,3 +474,45 @@ html {
     color: white;
     cursor: pointer;
 }
+
+@media (max-width: 520px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-2 {
+        height: 120px;
+    }
+}
+
+@media (max-width: 660px) {
+    .about-topics {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .about-banner {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .showcase-box {
+        flex-direction: column;
+        height: 450px;
+    }
+    .showcase-box img, .content-box {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 880px) {
+    .contact .container {
+        flex-direction: column;
+    }
+    .contact-information, .form {
+        width: 100%;
+    }
+}
