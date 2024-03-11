@@ -305,10 +305,10 @@ html {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 10px 0 6px;
+    margin: 25px 0 10px;
 }
 
-.about-counts p span {
+.about-counts span {
     font-size: 2rem;
     color: rgba(26, 31, 26, 0.781);
     font-weight: 600;
@@ -318,6 +318,7 @@ html {
     font-size: 1.6rem;
     color: rgba(26, 31, 26, 0.767);
     font-weight: 500;
+    margin-top: 0;
 }
 
 /* about banner */
