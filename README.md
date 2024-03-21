@@ -1,3 +1,3 @@
-live: https://kalbela.github.io/travelWebsite/ <br />
-recreation of https://objective-wright-bf0615.netlify.app/ <br />
+live: https://kalbela.github.io/travelWebsite/ <br /><br /><br />
+design is inspired by travel website tutorial by harshit vashisth on youtube<br />
 photos are collected from pexels.com
